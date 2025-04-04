@@ -20,5 +20,5 @@ class Role
             return redirect(to: 'dashboard');
         }
         return $next($request);
-    }
-}
+    } 
+} 
